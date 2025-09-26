@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RoboHub 🤖</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f0f4f8; }
+    header { background: #007bff; color: white; padding: 20px; text-align: center; font-size: 24px; }
+    section { padding: 20px; }
+    h2 { margin-top: 0; }
+    ul { list-style: none; padding: 0; }
+    li { background: white; margin: 10px 0; padding: 10px; border-radius: 8px; }
+    button { padding: 10px 15px; margin: 5px; border: none; border-radius: 5px; cursor: pointer; }
+    .btn-upload { background: #28a745; color: white; }
+    .btn-add { background: #ffc107; color: black; }
+    .btn-check { background: #17a2b8; color: white; }
+  </style>
+</head>
+<body>
+  <header>RoboHub 🤖</header>
+  <section>
+    <h2>Inventory</h2>
+    <ul id="inventory">
+      <li>Servo (3)</li>
+      <li>Motor (5)</li>
+      <li>Sensors (7)</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Task Board</h2>
+    <ul id="tasks">
+      <li>Build chassis (Jacob)</li>
+      <li>Wire motors (Kevin)</li>
+    </ul>
+  </section>
+  <section>
+    <button class="btn-upload">Upload Design</button>
+    <button class="btn-add">Add Task</button>
+    <button class="btn-check">Check Inventory</button>
+  </section>
+</body>
+</html>
